@@ -1,0 +1,125 @@
+#disImg {
+    background-image: url("D:/Practice worls/ownCreation/calculator-website/cal.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 85px;
+    width: 343px;
+}
+#ans {
+    text-align: left;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#calbody {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1cm;
+    display: inline-block;
+    background-color: gray;
+}
+.butn,.sbutn{
+    font-weight: bolder;
+    border-radius: 20%;
+    font-size: 25px;
+    height: 1cm;
+    width: 1cm;
+    margin: 2px;
+}
+.del,.back {
+    font-weight: bolder;
+    border-radius: 20%;
+    font-size: 25px;
+    height: 1cm;
+    width: 2cm;
+    margin: 2px;
+    font-weight: bolder;
+}
+p,h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+p,a {
+    font-family: 'Lekton', sans-serif;
+}
+h3,h4 {
+    font-family: 'Crete Round', serif;
+}
+h2 {
+    font-size: 35px;
+    color: lightcoral;
+    font-family: 'Crete Round', serif;
+}
+body {
+    background-color: lightyellow;
+}
+.butn:hover,.sbutn:hover {
+    background-color: aqua;
+    opacity: 50%;
+}
+.del:hover,.back:hover {
+    background-color: red;
+}
+#buttons {
+    text-align: left;
+    display: inline-block;
+}
+#rem {
+    display: inline-block;
+    background-color: gray;
+    height: 160px;
+    width: 115px;
+}
+.pressed {
+    background-color: aqua;
+    opacity: 50%;
+}
+h3 {
+    text-align: center;
+}
+#btns {
+    text-align: center;
+    margin-top: 50px;
+}
+.btn {
+    background-color:lightgreen;
+    color:orangered;
+    font-weight: bolder;
+    font-size: 19px;
+    border-radius: 10%;
+    margin: 5px;
+    text-decoration: underline;
+}
+.btn:hover {
+    background-color: black;
+    color: blue;
+    text-decoration: solid;
+}
+#note { 
+    font-weight: bolder;
+}
+#full {
+  height: auto;
+  width: 540px;
+  text-align: center;
+  margin-left: 25%;
+}
+footer {
+    background-color: coral;
+}
+#ins {
+    color: orangered;
+    text-align: center;
+}
+#ins:hover {
+    color: brown;
+    text-decoration: underline;
+    background-color: lightcoral;
+}
+#head2 {
+    text-decoration:underline;
+}
+#head2:hover {
+    color: blue;
+}

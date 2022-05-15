@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Lekton:wght@700&display=swap" rel="stylesheet">
+</head>
+<body><div id="full">
+    <h2>Calculator</h2>
+    <p>Go to bottom of this page to get the code for this calculator project</p>
+    <div id="calbody">
+        <div id="disImg"><h1 id="ans"></h1></div><br>
+        <div id="buttons">
+            <button class="butn 1">1</button>
+            <button class="butn 2">2</button>
+            <button class="butn 3">3</button>
+            <button class="sbutn plus">+</button><button class="sbutn minus">-</button>
+            <button class="del Delete">Del</button><br>
+            <button class="butn 4">4</button>
+            <button class="butn 5">5</button>
+            <button class="butn 6">6</button>
+            <button class="sbutn into">*</button><button class="sbutn by">/</button>
+            <button class="back Backspace">⌫</button><br>
+            <button class="butn 7">7</button>
+            <button class="butn 8">8</button>
+            <button class="butn 9">9</button>
+            <button class="sbutn =">=</button><br>
+            <button class="dot butn">.</button>
+            <button class="butn 0">0</button>
+            <button class="butn 00">00</button>
+        </div>
+        </div>
+        <p id="note"><strong>Note:</strong>You can use your keyboard number keys 
+            or you can also use the buttons on the screen</p>
+            <br><br><h3>To get the source of the above calculator project click the below links</h3>
+            <div id="btns"><a href="" class="btn">Html code</a>
+            <a class="btn" href="">Css Code</a>
+            <a href="" class="btn">JavaScript Code</a></div>
+        </div>     
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
