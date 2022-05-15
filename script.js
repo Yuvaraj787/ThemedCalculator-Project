@@ -4,7 +4,9 @@ var stimes = 0;
 const sysm = ['+',"-","*","/","=","Enter"];
 const nums = ['0','1','2','3','4','5','6','7','8','9','.'];
 var backSpaced = false;
+var sound = new Audio("clicking.mp3");
 $(".butn").on("click",function() {
+    sound.play();
     var curChar = this.textContent;
     var need = display.text();
     if (curChar=='.' && display.text().slice(display.text().length-1)=='.') {
@@ -15,6 +17,7 @@ $(".butn").on("click",function() {
 })
 
 $(".sbutn").on("click", function() {
+    sound.play();
     stimes++;
     var cs = this.textContent;
     if (backSpaced) {
@@ -56,11 +59,13 @@ function check() {
 
 }
 $(".del").on("click",function() {
+    sound.play();
     display.text(" ");
     nSym = [];
     stimes = 0;
 })
 $(".back").on("click",function() {
+    sound.play();
     var removed = display.text().slice(-1);
     if (sysm.includes(removed)) {
         stimes--;
@@ -74,6 +79,7 @@ $(".back").on("click",function() {
 
 // code to operate keyboard keys
 $(document).on("keypress",function() {
+    sound.play();
     var curChar = event.key;
     var cs = curChar;
     if (cs==".") {
@@ -127,6 +133,7 @@ $(document).on("keypress",function() {
 )
 
 $(document).on("keydown",function() {
+    sound.play();
     var bigKey = event.key;
     mkAnimation(bigKey);
     if (bigKey == "Backspace") {
